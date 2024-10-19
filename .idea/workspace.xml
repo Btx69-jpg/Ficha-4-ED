@@ -5,19 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee457b8b-ea50-42b5-9d85-cbf3b446f230" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CLASS/NotComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CLASS/NotComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/ConcorrentModificationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ConcorrentModificationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/ElementNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ElementNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/EmptyListException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/EmptyListException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/ListADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/ListADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/OrderedListADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/OrderedListADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/UnorderedListADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/UnorderedListADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Nodes/LinearNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Nodes/LinearNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parte1/Ex1/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parte1/Ex1/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parte1/Ex1/ArrayOrderedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parte1/Ex1/ArrayOrderedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parte1/Ex2/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parte1/Ex2/DoubleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parte1/Ex2/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parte1/Ex2/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parte1/Ex2/DoublyOrderedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parte1/Ex2/DoublyOrderedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayOrderedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayOrderedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DoublyOrderedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DoublyOrderedListDemo.java" afterDir="false" />
+>>>>>>> 6bca961 (fix push)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+>>>>>>> 6bca961 (fix push)
   <component name="ProjectId" id="2nVoFxxqdycSt3rXxwDYzy4jMZV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,6 +62,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
@@ -35,6 +72,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+=======
+    "Application.ArrayOrderedListDemo.executor": "Run",
+    "Application.DoublyOrderedListDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Faculdade/2ºano/Primeiro semestre/ESII/Ficha_ED5/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Parte1.Ex2" />
+      <recent name="Nodes" />
+    </key>
+  </component>
+>>>>>>> 6bca961 (fix push)
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -51,7 +113,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729067508703</updated>
+<<<<<<< HEAD
       <workItem from="1729067509809" duration="10000" />
+=======
+      <workItem from="1729067509809" duration="49000" />
+      <workItem from="1729067574526" duration="6046000" />
+      <workItem from="1729078830638" duration="7707000" />
+      <workItem from="1729326849808" duration="17766000" />
+>>>>>>> 6bca961 (fix push)
     </task>
     <servers />
   </component>
@@ -66,6 +135,14 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+<<<<<<< HEAD
+=======
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/DoublyOrderedListDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+>>>>>>> 6bca961 (fix push)
       </breakpoints>
     </breakpoint-manager>
   </component>

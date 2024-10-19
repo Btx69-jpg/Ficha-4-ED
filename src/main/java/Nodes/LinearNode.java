@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package List.Ex1;
+=======
+package Nodes;
+>>>>>>> 6bca961 (fix push)
 
 public class LinearNode<T> {
     private T element;         // Dado armazenado no nó
