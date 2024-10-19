@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package Interfaces;public interface OrderedListADT {
-=======
 package Interfaces;
 
 public interface OrderedListADT<T> extends ListADT<T> {
@@ -9,5 +6,4 @@ public interface OrderedListADT<T> extends ListADT<T> {
      * @param element elemento a ser adicionado
      * */
     public void add(T element);
->>>>>>> 6bca961 (fix push)
 }

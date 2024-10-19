@@ -1,11 +1,6 @@
 package Parte1.Ex2;
 
-<<<<<<< HEAD
-import Interfaces.ListADT;
 
-public abstract class OrderedList {
-
-=======
 import Interfaces.OrderedListADT;
 
 public class DoublyOrderedList<T> extends DoublyLinkedList<T> implements OrderedListADT<T> {
@@ -69,5 +64,4 @@ public class DoublyOrderedList<T> extends DoublyLinkedList<T> implements Ordered
         this.count++;
         this.modCount++;
     }
->>>>>>> 6bca961 (fix push)
 }

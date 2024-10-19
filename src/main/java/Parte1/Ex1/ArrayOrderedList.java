@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-package Parte1.Ex1;public class ArrayOrderedList {
-}
-=======
 package Parte1.Ex1;
 
 import Interfaces.OrderedListADT;
@@ -59,4 +55,3 @@ public class ArrayOrderedList<T> extends ArrayList<T> implements OrderedListADT<
     }
 
 }
->>>>>>> 6bca961 (fix push)

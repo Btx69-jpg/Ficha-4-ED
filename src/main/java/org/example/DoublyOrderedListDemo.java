@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package org.example;public class DoublyOrderedListDemo {
-=======
 package org.example;
 
 import CLASS.NotComparable;
@@ -48,5 +45,4 @@ public class DoublyOrderedListDemo {
 
     }
 
->>>>>>> 6bca961 (fix push)
 }

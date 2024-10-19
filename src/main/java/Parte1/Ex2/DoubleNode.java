@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-package Ex4;
 
-import Ex2.SentinelNode;
-=======
 package Parte1.Ex2;
->>>>>>> 6bca961 (fix push)
 
 public class DoubleNode<T> {
     private T element;         // Dado armazenado no nó
@@ -42,11 +37,7 @@ public class DoubleNode<T> {
 
     // Define o nó anterior
     public void setPrevious(DoubleNode<T> previousNode) {
-<<<<<<< HEAD
-        this.next = previousNode;
-=======
         this.previous = previousNode;
->>>>>>> 6bca961 (fix push)
     }
     // Retorna o próximo nó
     public DoubleNode<T> getNext() {

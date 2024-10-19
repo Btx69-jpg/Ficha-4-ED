@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package Interfaces;public interface UnorderedListADT {
-=======
 package Interfaces;
 
 public interface UnorderedListADT<T> extends ListADT<T> {
@@ -22,5 +19,4 @@ public interface UnorderedListADT<T> extends ListADT<T> {
      * @param target elemento alvo que se deseja inserir o element após
      * */
     public void addAfter(T element, T target);
->>>>>>> 6bca961 (fix push)
 }

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package Parte1.Ex1;public class ArrayList {
-=======
 package Parte1.Ex1;
-
 import Exceptions.ConcorrentModificationException;
 import Exceptions.ElementNotFoundException;
 import Exceptions.EmptyListException;
@@ -272,5 +268,4 @@ public abstract class ArrayList<T> implements ListADT<T> {
         }
         return "Lista [ " + sb.toString() + "]";
     }
->>>>>>> 6bca961 (fix push)
 }

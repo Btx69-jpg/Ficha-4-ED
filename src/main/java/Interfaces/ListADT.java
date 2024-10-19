@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package Interfaces;public interface ListADT {
-=======
 package Interfaces;
 
 import java.util.Iterator;
@@ -61,5 +58,4 @@ public interface ListADT<T> extends Iterable<T>{
      * */
     @Override
     public String toString();
->>>>>>> 6bca961 (fix push)
 }

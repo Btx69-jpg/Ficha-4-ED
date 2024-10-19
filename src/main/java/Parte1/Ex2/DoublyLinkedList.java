@@ -1,9 +1,6 @@
 package Parte1.Ex2;
 
 
-<<<<<<< HEAD
-public class DoubleLinkedList extends {
-=======
 import Exceptions.ConcorrentModificationException;
 import Exceptions.ElementNotFoundException;
 import Exceptions.EmptyListException;
@@ -242,5 +239,4 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
 
         return sb.toString();
     }
->>>>>>> 6bca961 (fix push)
 }

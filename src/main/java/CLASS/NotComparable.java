@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-package PACKAGE_NAME;public class NotComparable {
-}
-=======
 package CLASS;
 
 import java.util.Random;
@@ -20,4 +16,3 @@ public class NotComparable {
         this.surname = "Clebin";
     }
 }
->>>>>>> 6bca961 (fix push)

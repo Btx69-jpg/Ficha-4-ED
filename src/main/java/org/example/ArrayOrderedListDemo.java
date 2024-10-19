@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package org.example;public class ArrayOrderedListDemo {
-=======
 package org.example;
 
 import Parte1.Ex1.ArrayOrderedList;
@@ -25,5 +22,4 @@ public class ArrayOrderedListDemo {
 
         System.out.println(list);
     }
->>>>>>> 6bca961 (fix push)
 }
