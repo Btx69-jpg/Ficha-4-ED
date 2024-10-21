@@ -31,6 +31,7 @@ public abstract class ArrayList<T> implements ListADT<T> {
      * The modifications counter.
      * */
     protected int modCount;
+
     public ArrayList(){
         first = last = 0;
         list = (T[]) new Object[10];
@@ -259,6 +260,14 @@ public abstract class ArrayList<T> implements ListADT<T> {
         }
 
         this.list = temp;
+    }
+
+    protected void openspace(int position, T element) {
+
+        for (int i = this.count; i > position; i--){
+            this.list[i] = this.list[i-1];
+        }
+        this.list[position] = element;
     }
 
     public String toString(){

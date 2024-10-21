@@ -1,0 +1,2 @@
+Quando utilizado um elemento não comparavel foi lançada a IllegalArgumentException
+indicando que o elemento deve ser comparavel, se não não pode pertencer a lista.

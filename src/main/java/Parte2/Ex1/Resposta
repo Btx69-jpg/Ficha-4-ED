@@ -1,0 +1,5 @@
+Porque dependendo do tipo da lista o metodo add sera diferente, assim a interface não sendo util pois
+seria impossivel criar uma classe arraylist por exemplo com metodos comuns em um arrayOrderedList
+e um arrayUnnorderedList, havendo necessidade de duplicação de codigo desnecessaria.
+a lista unnordered recebe um dois argumentos e a ordenada recebe um pois o parametro de colocação do objeto
+são caracteristicas do proprio

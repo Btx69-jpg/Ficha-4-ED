@@ -64,4 +64,23 @@ public class DoublyOrderedList<T> extends DoublyLinkedList<T> implements Ordered
         this.count++;
         this.modCount++;
     }
+
+    /**
+     * Metodo para inverter a lista
+     * @return Array com os elementos invertidos
+     * @throws NullPointerException se a lista estiver vazia
+     * */
+    public T[] Invert() throws NullPointerException{
+        if (this.count == 0){
+            throw new NullPointerException("List is empty");
+        }
+        T[] array = (T[]) new Object[this.count];
+        DoubleNode<T> current = this.last;
+
+        for (int i = 0; i < this.count; i++){
+            array[i] = current.getElement();
+            current = current.getPrevious();
+        }
+        return array;
+    }
 }

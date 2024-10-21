@@ -1,0 +1,4 @@
+A lista não é sempre escolhida sobre queue ou stacks devido a questoes de eficiencia e propositos.
+quando não é preciso realizar pesquisas sobre os dados, queue e listas são mais indicadas, devido a
+questoes de eficiencia, quando é necessario o ultimo elemento adicionado, uma stack é mais indicado
+quando o primeiro elemento adicionado é mais necessario, uma queue sera a mais indicada

@@ -3,6 +3,8 @@ package org.example;
 import CLASS.NotComparable;
 import Parte1.Ex2.DoublyOrderedList;
 
+import java.util.Arrays;
+
 public class DoublyOrderedListDemo {
     public static void main(String[] args)
     {
@@ -23,11 +25,9 @@ public class DoublyOrderedListDemo {
 
         System.out.println(list);
 
+        System.out.println("Inverted List" + Arrays.toString(list.Invert()));
 
-
-
-
-                /*
+        /*
         DoublyOrderedList<NotComparable> list = new DoublyOrderedList<>();
 
         list.add(new NotComparable());

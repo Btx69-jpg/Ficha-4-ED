@@ -4,6 +4,7 @@ package Parte1.Ex2;
 import Exceptions.ConcorrentModificationException;
 import Exceptions.ElementNotFoundException;
 import Exceptions.EmptyListException;
+import Exceptions.WrongMethodException;
 import Interfaces.ListADT;
 import Parte1.Ex1.ArrayList;
 
@@ -66,7 +67,7 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
         this.last = removed.getPrevious();
         this.count--;
         this.modCount++;
-        return null;
+        return removed.getElement();
     }
 
     /**
@@ -76,6 +77,7 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
      */
     @Override
     public T remove(T element) throws EmptyListException, ElementNotFoundException {
+        T removed = null;
         boolean exists = false;
         if (this.count == 0){
             throw new EmptyListException("A lista esta vazia");
@@ -83,8 +85,24 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
 
         DoubleNode<T> current = this.first;
 
+        if (element == first.getElement()){
+            removed = first.getElement();
+            this.first = first.getNext();
+            this.count--;
+            this.modCount++;
+            return removed;
+        }
+
         while (current != null){
             if (current.getElement().equals(element)){
+                //confirmar se é necessario estas exceptions por segurança ou se é preferivel deixar livre (utilizar estes metodos comprometera o desempenho quando utilizado em larga escala)
+                if (current.getNext() == null){
+                    throw new WrongMethodException("Para remover o ultimo elemento Utilize o metodo para remover o ultimo elemento");
+                }
+                if (current.getPrevious() == null){
+                    throw new WrongMethodException("Para remover o primeiro elemento Utilize o metodo para remover o primeiro elemento");
+                }
+                removed = current.getElement();
                 DoubleNode<T> previous = current.getPrevious();
                 DoubleNode<T> next = current.getNext();
                 previous.setNext(next);
@@ -93,6 +111,7 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
                 exists = true;
                 break;
             }
+
             current = current.getNext();
         }
 
@@ -102,7 +121,7 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
 
         this.count--;
         this.modCount++;
-        return null;
+        return removed;
     }
 
     /**
@@ -191,7 +210,7 @@ public abstract class DoublyLinkedList<T> implements ListADT<T> {
 
         private MyIterator(){
             currentPosition = 0;
-            currentNode = null;
+            currentNode = first;
             expectedModCount = modCount;
 
 
